@@ -14,6 +14,7 @@ module.exports = {
       fontFamily: {
         serif: ['"Playfair Display"', '"Georgia"', 'serif'],
         elegant: ['"Cormorant Garamond"', '"Georgia"', 'serif'],
+        'great-vibes': ['"Great Vibes"', 'cursive'],
       },
       backgroundImage: {
         'nail-stripes': 'linear-gradient(90deg, #8B3A3A 20%, #E8B4C8 20%, #E8B4C8 40%, #7FAFB8 40%, #7FAFB8 60%, #F5D5E0 60%, #F5D5E0 80%, #8B3A3A 80%)',
