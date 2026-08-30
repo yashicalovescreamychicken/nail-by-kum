@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/Hero';
+import FeaturedProducts from '../components/FeaturedProducts';
+import About from '../components/About';
+---
+
+<Layout title="Home">
+  <Hero client:load />
+  <FeaturedProducts client:load />
+  <About client:load />
+</Layout>

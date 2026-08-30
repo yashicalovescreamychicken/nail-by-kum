@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Cart from '../components/Cart';
+---
+
+<Layout title="Shopping Cart">
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold mb-12">Shopping Cart</h1>
+    <Cart client:load />
+  </div>
+</Layout>

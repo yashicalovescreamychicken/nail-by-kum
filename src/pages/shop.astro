@@ -1,0 +1,11 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ShopGallery from '../components/ShopGallery';
+---
+
+<Layout title="Shop">
+  <div class="container mx-auto px-4 py-12">
+    <h1 class="text-4xl font-bold text-center mb-12">Our Nail Collections</h1>
+    <ShopGallery client:load />
+  </div>
+</Layout>
