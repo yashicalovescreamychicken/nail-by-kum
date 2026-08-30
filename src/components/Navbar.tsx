@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaShoppingCart, FaMenu, FaTimes } from 'react-icons/fa';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,14 +23,16 @@ export default function Navbar() {
           {/* Cart & Mobile Menu */}
           <div className="flex items-center space-x-4">
             <a href="/cart" className="relative">
-              <FaShoppingCart size={24} className="hover:text-nail-pink transition" />
+              <svg className="w-6 h-6 hover:text-nail-pink transition cursor-pointer" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2 9m10 0h2m-2 0a2 2 0 100 4 2 2 0 000-4zm-8 0a2 2 0 100 4 2 2 0 000-4z" />
+              </svg>
               <span className="absolute -top-2 -right-2 bg-nail-pink text-white text-xs rounded-full w-5 h-5 flex items-center justify-center">0</span>
             </a>
             <button
-              className="md:hidden"
+              className="md:hidden text-2xl"
               onClick={() => setIsOpen(!isOpen)}
             >
-              {isOpen ? <FaTimes size={24} /> : <FaMenu size={24} />}
+              {isOpen ? '✕' : '☰'}
             </button>
           </div>
         </div>
