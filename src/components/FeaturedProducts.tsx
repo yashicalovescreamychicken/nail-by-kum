@@ -30,7 +30,7 @@ export default function FeaturedProducts() {
     <section className="py-20 bg-nail-cream">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-5xl font-bold text-center mb-4 font-serif text-nail-maroon"
+          className="text-6xl font-great-vibes text-center mb-4 text-nail-maroon"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.6 }}
@@ -54,7 +54,7 @@ export default function FeaturedProducts() {
                 {product.image}
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold mb-2 font-serif text-nail-maroon">{product.name}</h3>
+                <h3 className="text-2xl font-great-vibes mb-2 text-nail-maroon">{product.name}</h3>
                 <p className="text-nail-maroon mb-4 font-serif italic">{product.description}</p>
                 <div className="flex justify-between items-center">
                   <span className="text-3xl font-bold text-nail-maroon">{product.price}</span>
