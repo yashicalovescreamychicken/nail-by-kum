@@ -8,8 +8,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a href="/" className="text-2xl font-bold text-nail-maroon font-serif flex items-center space-x-2 hover:text-nail-pink transition">
-            <span className="text-3xl">💅</span>
+          <a href="/" className="text-3xl font-great-vibes text-nail-maroon font-bold flex items-center space-x-2 hover:text-nail-pink transition">
+            <span className="text-4xl">💅</span>
             <span>Nail by Kum</span>
           </a>
 
