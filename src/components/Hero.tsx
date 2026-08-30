@@ -21,7 +21,7 @@ export default function Hero() {
         </motion.div>
         
         <motion.h1
-          className="text-6xl md:text-7xl font-bold mb-4 font-serif"
+          className="text-7xl md:text-8xl font-great-vibes mb-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
@@ -29,7 +29,7 @@ export default function Hero() {
           Nail by Kum
         </motion.h1>
         <motion.p
-          className="text-2xl md:text-3xl mb-8 font-serif italic"
+          className="text-2xl md:text-3xl mb-8 font-great-vibes italic"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.2 }}
